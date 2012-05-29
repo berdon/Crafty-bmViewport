@@ -22,30 +22,12 @@
         "javascript",
         "crafty.js"
     ],
-    "jsfiddle" : "http://jsfiddle.net/zalun/NmudS/embedded/", 
-    "homepage": "https://github.com/louisstow/Crafty",
+    "jsfiddle" : "http://jsfiddle.net/wqxYV/4/embedded/result/", 
+    "homepage": "https://github.com/berdon/Crafty-bmViewport",
     "files": [
-        "src/license.txt", 
-        "src/core.js",
-        "src/intro.js", 
-        "src/HashMap.js",
-        "src/2D.js", 
-        "src/collision.js", 
-        "src/DOM.js",
-        "src/extensions.js",
-        "src/canvas.js",
-        "src/controls.js",
-        "src/animation.js",
-        "src/sprite.js",
-        "src/drawing.js", 
-        "src/isometric.js", 
-        "src/particles.js", 
-        "src/sound.js",
-        "src/html.js", 
-        "src/storage.js", 
-        "src/text.js", 
-        "src/loader.js", 
-        "src/math.js", 
-        "src/outro.js"
+        "MIT-License.txt", 
+        "README",
+        "bmViewport.js",
+        "Demo.js"
     ]
 }
