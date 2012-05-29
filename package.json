@@ -25,9 +25,6 @@
     "jsfiddle" : "http://jsfiddle.net/wqxYV/4/embedded/result/", 
     "homepage": "https://github.com/berdon/Crafty-bmViewport",
     "files": [
-        "MIT-License.txt", 
-        "README",
-        "bmViewport.js",
-        "Demo.js"
+        "bmViewport.js"
     ]
 }
