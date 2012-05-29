@@ -10,7 +10,7 @@ Forces the viewport to follow the bound entity. This component offers adjustable
 
 ### Example
 
-See: http://jsfiddle.net/wqxYV/4/embedded/result/
+See: http://jsfiddle.net/wqxYV/5/
 
     var MAP_WIDTH = 640,//Crafty.DOM.window.width,
         MAP_HEIGHT = 640;//Crafty.DOM.window.height;

@@ -7,7 +7,7 @@ var VP_WIDTH = 256,//Crafty.DOM.window.width,
 Crafty.init(MAP_WIDTH, MAP_HEIGHT);
 Crafty.canvas.init();
 
-Crafty.modules({ 'http://github.com/berdon/Crafty-bmViewport/raw/master/bmViewport.js': 'DEV' }, function() {
+Crafty.modules({ bmViewport: 'DEV' }, function() {
     Crafty.scene("main", function() {
         Crafty.background("#000");
         Crafty.viewport.init(VP_WIDTH,VP_HEIGHT);
