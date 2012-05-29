@@ -18,7 +18,7 @@
  * Forces the viewport to follow the bound entity. This component offers adjustable
  * "boundary padding" prior to the viewport moving and configurable map boundary via.
  * Crafty.polygon. If no map boundary is set, the default is to use
- * Crafty.DOM.window.width and Craft.DOM.window.height; however.
+ * Crafty.DOM.window.width and Craft.DOM.window.height.
  */
 Crafty.c("ViewportFollow", {
     _lockedAtX: false,
