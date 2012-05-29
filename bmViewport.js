@@ -107,7 +107,7 @@ Crafty.c("ViewportFollow", {
                 for(; !this.mapBoundary.containsPoint(vpx, this._y) && vpx < this._x; vpx++) { }
                 Crafty.viewport.x = -vpx;
             }
-            else if(!this._lockedAtX && !this.mapBoundary.containsPoint(vpx_max, this._y)) {
+            else if(!this._lockedAtX && !this.mapBoundary.containsPoint(vpx_max + Crafty.viewport.width, this._y)) {
                 // Flag that we're locked on a boundary
                 this._lockedAtX = true;
                 
@@ -135,7 +135,7 @@ Crafty.c("ViewportFollow", {
                 for(; !this.mapBoundary.containsPoint(this._x, vpy) && vpy < this._y; vpy++) { }
                 Crafty.viewport.y = -vpy;
             }
-            else if(!this._lockedAtY && !this.mapBoundary.containsPoint(this._x, vpy_max)) {
+            else if(!this._lockedAtY && !this.mapBoundary.containsPoint(this._x, vpy_max + Crafty.viewport.height)) {
                 // Flag that we're locked on a boundary
                 this._lockedAtY = true;
                 
